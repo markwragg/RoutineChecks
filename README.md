@@ -18,6 +18,7 @@ Invoke-RoutineChecks -SubscriptionName yoursubscription
 - App Gateway certificates expiry > 45 days
 - App Service certificates expiry > 45 days
 - VM disk encryption status = encrypted
+- VM backup status = backed up
 - VM replicated status = protected and normal (where enabled)
 
 More checks to come. PRs welcome.
